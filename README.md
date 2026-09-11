@@ -34,6 +34,41 @@ Este repositório contém o código-fonte do meu portfólio profissional interat
 
 ---
 
+## 📐 Arquitetura e Fluxo do Projeto
+
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│                              INDEX.HTML                                │
+│                                                                        │
+│  ┌────────────────────┐   ┌───────────────────┐   ┌─────────────────┐  │
+│  │    Header / Nav    │   │  Sidebar (Mobile) │   │  Theme Switcher │  │
+│  └─────────┬──────────┘   └─────────┬─────────┘   └────────┬────────┘  │
+└────────────┼────────────────────────┼──────────────────────┼───────────┘
+             │                        │                      │
+             ▼                        ▼                      ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                          DASHBOARD GRID (500%)                         │
+│                                                                        │
+│   [#home]     ──►   [#about]     ──►   [#portfolio]   ──► [#skills]    │
+│  Intro & UI        Trajetória         Projetos & PDV       Techs       │
+│                                                                        │
+│                                  │                                     │
+│                                  └──► [#contact]                       │
+│                                       Links & Loc                      │
+└──────────────────────────────────┬─────────────────────────────────────┘
+                                   │
+              ┌────────────────────┴────────────────────┐
+              ▼                                         ▼
+┌───────────────────────────┐             ┌───────────────────────────┐
+│     ASSETS / CSS / JS     │             │      RECURSOS MÍDIA       │
+│                           │             │                           │
+│  • style.css (Vars, Grid) │             │  • profile.png            │
+│  • DOM Manipulation       │             │  • curriculo_maciel.pdf   │
+│  • localStorage (Theme)   │             │  • Boxicons (CDN)         │
+└───────────────────────────┘             └───────────────────────────┘
+```
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
   - **HTML5 & CSS3 (Variáveis CSS, Flexbox, Grid Layout, Media Queries)**
