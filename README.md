@@ -69,6 +69,35 @@ Este repositório contém o código-fonte do meu portfólio profissional interat
 ```
 ---
 
+### Alternative: Gerar uma imagem ilustrativa (PNG/SVG)
+
+Caso queira gerar uma imagem real (imagem de capa/banner para o topo do repositório) para salvar na sua pasta `assets/img/`, você pode utilizar ferramentas gratuitas como:
+
+* **[Mermaid.live](https://mermaid.live):** Você cola o código de fluxo abaixo e baixa o diagrama em `.png` ou `.svg`.
+* **[Excalidraw](https://excalidraw.com):** Para desenhar diagramas em estilo moderno/sketch.
+
+**Código Mermaid (para colar em mermaid.live):**
+```mermaid
+graph TD
+    A[index.html] --> B[Navbar & Theme Switcher]
+    A --> C[Dashboard Grid Slider]
+    
+    subgraph Seções do Portfólio
+        C --> D[#home: Apresentação]
+        C --> E[#about: Sobre & Formação]
+        C --> F[#portfolio: Projetos]
+        C --> G[#skills: Tecnologias]
+        C --> H[#contact: Contatos]
+    end
+
+    subgraph Módulos & Estilos
+        B --> I[assets/css/style.css]
+        E --> J[assets/curriculo_robson_maciel.pdf]
+        D --> K[assets/img/profile.png]
+    end
+```
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
   - **HTML5 & CSS3 (Variáveis CSS, Flexbox, Grid Layout, Media Queries)**
