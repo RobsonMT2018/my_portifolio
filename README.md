@@ -61,15 +61,15 @@ Este repositório contém o código-fonte do meu portfólio profissional interat
 
 ## 🚀 Como Executar o Projeto Localmente
 
-1. Clone o repositório:
+1. **Clone o repositório:**
 
 ```git clone [https://github.com/robson-maciel/portfolio.git](https://github.com/robson-maciel/portfolio.git)```
 
-2. Acesse a pasta do projeto:
+2. **Acesse a pasta do projeto:**
 
 ```cd portfolio```
 
-3. Abra o projeto:
+3. **Abra o projeto:**
 
 ```Abra o arquivo index.html diretamente no seu navegador ou utilize a extensão Live Server no VS Code.```
 
