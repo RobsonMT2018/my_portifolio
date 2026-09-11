@@ -38,6 +38,21 @@ Portfólio web moderno, altamente responsivo e otimizado, desenvolvido para apre
 - 💡 **Áreas de Atuação:** Desenvolvimento Full-stack (React, React Native, Node.js, Express, PostgreSQL/MySQL), Análise de Segurança Web/DOM e Infraestrutura de Redes.
 
 ---
+# 🚀 Portfólio Pessoal | Robson Maciel
+
+Este repositório contém o código-fonte do meu portfólio profissional interativo, projetado para apresentar minha trajetória, formação acadêmica, habilidades técnicas e projetos em desenvolvimento web, mobile e segurança.
+
+---
+
+## 🌟 Recursos & Destaques
+
+- **Navegação Horizontal Contínua (Desktop):** Transição fluida em estilo *dashboard/slider* entre as seções.
+- **Layout Totalmente Responsivo (Mobile):** Adaptação automática para rolagem vertical intuitiva em telas menores.
+- **Tema Light / Dark:** Alternância de tema escuro e claro com persistência via `localStorage`.
+- **Menu Lateral Mobile:** Navegação limpa e acessível via *drawer* em dispositivos móveis.
+- **Design Moderno:** Estilização com conceito *Glassmorphism*, paleta de cores balanceada e tipografia moderna (*Plus Jakarta Sans*).
+
+---
 
 ## 📁 Estrutura do Repositório
 
@@ -48,23 +63,8 @@ Portfólio web moderno, altamente responsivo e otimizado, desenvolvido para apre
 │   ├── img/
 │   │   └── profile.png
 │   └── curriculo_robson_maciel.pdf
-├── portifolio.html
+├── index.html
 └── README.md
-
-
-## 🚀 Como Executar o Projeto Localmente
-
-1.Clone o repositório:
-
-git clone [https://github.com/robson-maciel/portfolio.git](https://github.com/robson-maciel/portfolio.git)
-
-2.Acesse a pasta do projeto:
-
-cd portfolio
-
-3.Abra o projeto:
-
-Abra o arquivo index.html diretamente no seu navegador ou utilize a extensão Live Server no VS Code.
 
 ## 📬 Contato
 
