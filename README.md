@@ -23,6 +23,7 @@ Este repositório contém o código-fonte do meu portfólio profissional interat
 
 ```text
 ├── assets/
+|   ├── preview-app
 │   ├── css/
 │   │   └── style.css
 │   ├── js/
