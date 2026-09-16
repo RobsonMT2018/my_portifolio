@@ -190,7 +190,7 @@ body.light .switch-slider::before {
 /* SIDEBAR MOBILE */
 .sidebar {
   width: 260px;
-  height: 100vh;
+  height: 160vh;
   position: fixed;
   left: 0;
   top: 0;
