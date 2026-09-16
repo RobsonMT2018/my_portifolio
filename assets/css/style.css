@@ -190,7 +190,7 @@ body.light .switch-slider::before {
 /* SIDEBAR MOBILE */
 .sidebar {
   width: 260px;
-  height: 100vh;
+  height: 90vh;
   position: fixed;
   left: 0;
   top: 0;
@@ -259,7 +259,7 @@ section {
   margin-top: 10px;
   width: 50%;
   height: 100vh;
-  padding: 90px 5% 30px;
+  padding: 100px 5% 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -273,6 +273,7 @@ section {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--border);
   border-radius: 20px;
+  margin-top:15px;
   padding: 10px;
   width: 100%;
   max-width: 900px;
