@@ -46,17 +46,6 @@ Este repositório contém o código-fonte do meu portfólio profissional interat
 
 ---
 
-## 🌟 Galeria 
-
- <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/6c7945ca-cdb5-46fa-97ca-564ffa7c5da8" />
- <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/98e44342-6757-482a-8568-19fc97a31cd3" />
- <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/f8cb54c4-6ed5-4ec8-a331-4b9784daa199" />
- <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/ef5e8788-c239-4e86-b84a-840ba83dbe98" />
- <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/65f6a8c9-630c-431b-82e0-3fcf4067d210" />
-
-
----
-
 
 ## 👨‍💻 Sobre o Autor
 
