@@ -190,7 +190,7 @@ body.light .switch-slider::before {
 /* SIDEBAR MOBILE */
 .sidebar {
   width: 260px;
-  height: 10vh;
+  height: 90vh;
   position: fixed;
   left: 0;
   top: 0;
@@ -210,7 +210,7 @@ body.light .switch-slider::before {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .nav-mobile a {
