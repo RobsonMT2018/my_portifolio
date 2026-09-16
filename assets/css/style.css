@@ -272,7 +272,7 @@ section {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--border);
   border-radius: 20px;
-  padding: 30px;
+  padding: 10px;
   width: 100%;
   max-width: 900px;
   max-height: calc(100vh - 120px);
