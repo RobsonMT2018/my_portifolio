@@ -81,9 +81,9 @@ Este repositório contém o código-fonte do meu portfólio profissional interat
 
 ## 📬 Contato
 
-- **LinkedIn:** [linkedin.com/in/robson-maciel-tomosique](https://linkedin.com/in/robson-maciel-tomosique)
-- **Credly:** [credly.com/users/robson-maciel-tomosique](https://credly.com/users/robson-maciel-tomosique)
-- **GitHub:** [github.com/robson-maciel](https://github.com/robson-maciel)
+- **LinkedIn:** [linkedin.com/in/robson-maciel-tomosique]([https://linkedin.com/in/robson-maciel-tomosique](https://www.linkedin.com/in/robson-maciel-9213b719b/)
+- **Credly:** [credly.com/users/robson-maciel-tomosique](https://www.credly.com/users/robson-maciel-tomosique/edit/badges/credly)
+- **GitHub:** [github.com/robson-maciel](https://github.com/RobsonMT2018)
 
 ## *Full-Stack Developer | Sorocaba - SP, Brasil*
 
