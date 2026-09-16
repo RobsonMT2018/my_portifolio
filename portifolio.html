@@ -13,7 +13,7 @@
     <meta property="og:description" content="Confira meus projetos e habilidades em desenvolvimento Web, Mobile e Engenharia de Software." />
     <meta property="og:type" content="website" />
 
-    <!-- Fontes e Ícones Externe -->
+    <!-- Fontes e Ícones -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -80,7 +80,7 @@
                 <h3 style="font-size: 1.1rem; color: var(--accent); font-weight: 700;">FULL-STACK DEVELOPER</h3>
               </div>
               <div style="width: 90px; height: 90px; flex-shrink: 0;">
-                <img src="assets/img/my_foto.png" alt="Foto de Robson Maciel" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 2px solid var(--border);" />
+                <img src="assets/img/profile.png" alt="Foto de Robson Maciel" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 2px solid var(--border);" />
               </div>
             </div>
 
@@ -90,35 +90,36 @@
               </h2>
             </div>
 
-            <div class="grid-cards">
-              <div class="card-item" style="text-align: center;">
-                <i class="bx bx-code-alt" style="color: var(--icon-web); font-size: 1.8rem;"></i>
-                <h4 style="font-size: 0.85rem; font-weight: 700;">Web Dev</h4>
-                <span style="font-size: 0.72rem; color: var(--muted);">Front-end & UI</span>
+            <!-- CARDS INTERATIVOS (HOME) -->
+            <div class="skills-card-list">
+              <div class="skill-card-item" data-title="Web Dev" data-subtitle="Front-end & UI" data-image="assets/img/cert-webdev.png" data-desc="Desenvolvimento de interfaces reativas e modernas utilizando React, JavaScript, HTML5 e CSS3 com foco em UX/UI.">
+                <i class="bx bx-code-alt" style="color: var(--accent);"></i>
+                <h3>Web Dev</h3>
+                <p>Front-end & UI</p>
               </div>
 
-              <div class="card-item" style="text-align: center;">
-                <i class="bx bx-mobile-alt" style="color: var(--icon-game); font-size: 1.8rem;"></i>
-                <h4 style="font-size: 0.85rem; font-weight: 700;">Mobile Apps</h4>
-                <span style="font-size: 0.72rem; color: var(--muted);">React Native</span>
+              <div class="skill-card-item" data-title="Mobile Apps" data-subtitle="React Native" data-image="assets/img/cert-mobile.png" data-desc="Criação de aplicativos móveis multiplataforma com React Native e Expo, integração com APIs e mapas.">
+                <i class="bx bx-mobile-alt" style="color: var(--accent);"></i>
+                <h3>Mobile Apps</h3>
+                <p>React Native</p>
               </div>
 
-              <div class="card-item" style="text-align: center;">
-                <i class="bx bx-server" style="color: var(--accent-purple); font-size: 1.8rem;"></i>
-                <h4 style="font-size: 0.85rem; font-weight: 700;">Back-end & DB</h4>
-                <span style="font-size: 0.72rem; color: var(--muted);">Node & Postgres</span>
+              <div class="skill-card-item" data-title="Back-end & DB" data-subtitle="Node & Postgres" data-image="assets/img/cert-backend.png" data-desc="Construção de APIs RESTful escaláveis utilizando Node.js, Express e bancos de dados relacionais (PostgreSQL/MySQL).">
+                <i class="bx bx-server" style="color: var(--accent-purple);"></i>
+                <h3>Back-end & DB</h3>
+                <p>Node & Postgres</p>
               </div>
 
-              <div class="card-item" style="text-align: center;">
-                <i class="bx bx-shield-quarter" style="color: var(--icon-data); font-size: 1.8rem;"></i>
-                <h4 style="font-size: 0.85rem; font-weight: 700;">Infra & Sec</h4>
-                <span style="font-size: 0.72rem; color: var(--muted);">DevOps & Security</span>
+              <div class="skill-card-item" data-title="Infra & Sec" data-subtitle="DevOps & Security" data-image="assets/img/cert-security.png" data-desc="Conhecimentos em redes, análise de segurança web, auditoria de scripts e certificações Cisco (CCNA / CyberOps).">
+                <i class="bx bx-shield-quarter" style="color: var(--accent-green);"></i>
+                <h3>Infra & Sec</h3>
+                <p>DevOps & Security</p>
               </div>
 
-              <div class="card-item" style="text-align: center;">
-                <i class="bx bx-bot" style="color: var(--accent-pink); font-size: 1.8rem;"></i>
-                <h4 style="font-size: 0.85rem; font-weight: 700;">AI & Prompting</h4>
-                <span style="font-size: 0.72rem; color: var(--muted);">Gemini & GenAI</span>
+              <div class="skill-card-item" data-title="AI & Prompting" data-subtitle="Gemini & GenAI" data-image="assets/img/cert-ai.png" data-desc="Engenharia de prompts, integração com LLMs, automação de processos e criação de recursos com inteligência artificial.">
+                <i class="bx bx-bot" style="color: var(--accent-pink);"></i>
+                <h3>AI & Prompting</h3>
+                <p>Gemini & GenAI</p>
               </div>
             </div>
           </div>
@@ -136,8 +137,8 @@
             </div>
 
             <div class="card-item">
-              <p style="font-size: 0.88rem; line-height: 1.5; color: var(--muted);">
-                Desenvolvedor focado em criar soluções web e mobile eficientes, combinando interface moderna, boa arquitetura de código e segurança. Base sólida em front-end e back-end, além de experiência prática com redes, infraestrutura e inteligência artificial.
+              <p style="font-size: 0.95rem; line-height: 1.2; color: var(--muted); text-align: justify;">
+                Desenvolvedor focado em criar soluções web e mobile eficientes, combinando interface moderna, boa arquitetura de código e segurança. Base sólida em Full-Stack, além de experiência prática com redes, infraestrutura e inteligência artificial.
               </p>
             </div>
 
@@ -154,20 +155,23 @@
               <div class="card-item">
                 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
                   <i class="bx bx-select-multiple" style="font-size: 1.2rem; color: var(--accent-purple);"></i>
-                  <h3 style="font-size: 0.88rem; font-weight: 700;">Formação Acadêmica</h3>
+                  <h3 style="font-size: 0.9rem; font-weight: 700;">Formação Acadêmica</h3><br>
                 </div>
-                <div style="display: flex; flex-direction: column; gap: 6px; font-size: 0.78rem;">
+                <div style="display: flex; flex-direction: column; gap: 6px; font-size: 0.78rem; margin-left:30px">
                   <div>
+                    <i class="bx bx-check-circle" style="font-size: 1.2rem; color: var(--accent-purple);"></i>
                     <strong>Análise e Dev. de Sistemas</strong>
-                    <span style="display: block; color: var(--muted); font-size: 0.72rem;">Cruzeiro do Sul EAD</span>
+                    <span style="display: block; color: var(--muted); font-size: 0.72rem; margin-left:20px">Cruzeiro do Sul EAD</span>
                   </div>
                   <div>
+                     <i class="bx bx-check-circle" style="font-size: 1.2rem; color: var(--accent-purple);"></i>
                     <strong>Tecnólogo em Jogos Digitais</strong>
-                    <span style="display: block; color: var(--muted); font-size: 0.72rem;">Uniso</span>
+                    <span style="display: block; color: var(--muted); font-size: 0.72rem;margin-left:20px">Uniso</span>
                   </div>
                   <div>
+                     <i class="bx bx-check-circle" style="font-size: 1.2rem; color: var(--accent-purple);"></i>
                     <strong>Técnico em Redes de Comp.</strong>
-                    <span style="display: block; color: var(--muted); font-size: 0.72rem;">Senac</span>
+                    <span style="display: block; color: var(--muted); font-size: 0.72rem;margin-left:20px">Senac</span>
                   </div>
                 </div>
               </div>
@@ -179,14 +183,14 @@
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 6px; font-size: 0.78rem; color: var(--muted);">
                   <div style="display: flex; align-items: center; gap: 6px;">
-                    <i class="bx bx-check-circle" style="color: var(--accent-green);"></i>
+                    <i class="bx bx-check-circle" style="color: var(--accent-green);margin-left:20px"></i>
                     <span>Cisco CCNAv7</span>
                   </div>
-                  <div style="display: flex; align-items: center; gap: 6px;">
+                  <div style="display: flex; align-items: center; gap: 6px; margin-left:20px">
                     <i class="bx bx-check-circle" style="color: var(--accent-green);"></i>
                     <span>CyberOps Associate</span>
                   </div>
-                  <div style="display: flex; align-items: center; gap: 6px;">
+                  <div style="display: flex; align-items: center; gap: 6px; margin-left:20px">
                     <i class="bx bx-check-circle" style="color: var(--accent-green);"></i>
                     <span>Cybersecurity Essentials</span>
                   </div>
@@ -200,6 +204,7 @@
         <section id="portfolio">
           <div class="glass-card">
             <div class="section-header">
+        
               <i class="bx bx-folder-open" style="font-size: 2rem; color: var(--accent);"></i>
               <div>
                 <h2 style="font-size: 1.2rem; font-weight: 800; color: var(--text);">PROJETOS EM DESTAQUE</h2>
@@ -207,10 +212,8 @@
               </div>
             </div>
            
-                 
-           
             <div class="grid-cards">
-              <!-- Cards de Projetos App Loja --> 
+              <!-- App Loja --> 
               <div class="card-item" style="display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
                 <div>
                   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
@@ -219,7 +222,7 @@
                   </div>
                   <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 4px;">Gestão & PDV</h3>
                   <p style="font-size: 0.78rem; color: var(--muted); line-height: 1.4;">
-                    App de vendas e controle de estoque com baixa automática por fichas técnicas, aplicativo para gerenciar a loja de copos personalizados, com área de administração e vitrine para clientes.
+                    App de vendas e controle de estoque com baixa automática por fichas técnicas, gerenciamento de loja de copos personalizados, área administrativa e vitrine.
                   </p>
                 </div>
                 <div>
@@ -228,23 +231,22 @@
                     <span class="tag" style="background: var(--border);">Node.js</span>
                     <span class="tag" style="background: var(--border);">Express</span>
                   </div>
-                  <a href="https://github.com/RobsonMT2018/App-loja" style="padding: 6px; border-radius: 6px; background: var(--border); color: var(--text); font-size: 0.75rem; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                  <a href="https://github.com/RobsonMT2018/App-loja" target="_blank" rel="noopener noreferrer" style="padding: 6px; border-radius: 6px; background: var(--border); color: var(--text); font-size: 0.75rem; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 4px;">
                     <i class="bx bxl-github"></i> Código
                   </a>
                 </div>
               </div>
 
-              
-              <!-- Cards de Projetos App Antivirus --> 
+              <!-- App Antivirus --> 
               <div class="card-item" style="display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
                 <div>
                   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <span class="tag" style="background: rgba(16, 185, 129, 0.1); color: var(--accent-pink);">Segurança</span>
+                    <span class="tag" style="background: rgba(244, 63, 94, 0.1); color: var(--accent-pink);">Segurança</span>
                     <i class="bx bx-shield-quarter" style="font-size: 1.2rem; color: var(--accent-pink);"></i>
                   </div>
-                  <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 4px;">Analisador de Segurança Antivirus</h3>
+                  <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 4px;">Analisador de Segurança Web</h3>
                   <p style="font-size: 0.78rem; color: var(--muted); line-height: 1.4;">
-                    Análise forense visual para detecção de scripts injetados, spans ocultos e phishing.
+                    Ferramenta de análise forense visual para detecção de scripts injetados, spans ocultos e engenharia reversa de phishing.
                   </p>
                 </div>
                 <div>
@@ -252,16 +254,14 @@
                     <span class="tag" style="background: var(--border);">JavaScript</span>
                     <span class="tag" style="background: var(--border);">DOM Sec</span>
                     <span class="tag" style="background: var(--border);">CyberSec</span>
-                    <span class="tag" style="background: var(--border);">Forensics</span>
-                    <span class="tag" style="background: var(--border);">Software Engineering</span>
                   </div>
-                  <a href="https://github.com/RobsonMT2018/App-Antivirus" style="padding: 6px; border-radius: 6px; background: var(--border); color: var(--text); font-size: 0.75rem; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                  <a href="https://github.com/RobsonMT2018/App-Antivirus" target="_blank" rel="noopener noreferrer" style="padding: 6px; border-radius: 6px; background: var(--border); color: var(--text); font-size: 0.75rem; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 4px;">
                     <i class="bx bxl-github"></i> Código
                   </a>
                 </div>
               </div>
 
-              <!-- Cards de Projetos Buscador de Endereços -->
+              <!-- Buscador de Endereços -->
               <div class="card-item" style="display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
                 <div>
                   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
@@ -270,7 +270,7 @@
                   </div>
                   <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 4px;">Buscador de Endereços</h3>
                   <p style="font-size: 0.78rem; color: var(--muted); line-height: 1.4;">
-                    Aplicações interativas focadas em experiência do usuário e componentes modernos.
+                    Aplicação mobile focada em experiência do usuário, consulta de mapas e geolocalização.
                   </p>
                 </div>
                 <div>
@@ -278,21 +278,43 @@
                     <span class="tag" style="background: var(--border);">React Native</span>
                     <span class="tag" style="background: var(--border);">Expo</span>
                   </div>
-                  <a href="https://github.com/RobsonMT2018/app-map" style="padding: 6px; border-radius: 6px; background: var(--border); color: var(--text); font-size: 0.75rem; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                  <a href="https://github.com/RobsonMT2018/app-map" target="_blank" rel="noopener noreferrer" style="padding: 6px; border-radius: 6px; background: var(--border); color: var(--text); font-size: 0.75rem; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 4px;">
                     <i class="bx bxl-github"></i> Código
                   </a>
                 </div>
               </div>
 
-            </div>
-
-              <div style="text-align: center;">
-                <a href="https://github.com/RobsonMT2018?tab=repositories" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 700; color: var(--accent); text-decoration: none;">
-                  <span>Ver repositórios no GitHub</span>
-                  <i class="bx bx-right-arrow-alt"></i>
-                </a>
+              <!-- Orbital Defender -->
+              <div class="card-item" style="display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+                <div>
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                    <span class="tag" style="background: rgba(255, 219, 13, 0.1); color: var(--accent-yellow);">Games</span>
+                    <i class="bx bx-joystick" style="font-size: 1.2rem; color: var(--accent-yellow);"></i>
+                  </div>
+                  <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 4px;">Orbital Defender</h3>
+                  <p style="font-size: 0.78rem; color: var(--muted); line-height: 1.4;">
+                    Jogo 2D de nave e defesa espacial com mecânicas de física, movimentação e combate.
+                  </p>
+                </div>
+                <div>
+                  <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px;">
+                    <span class="tag" style="background: var(--border);">Unity</span>
+                    <span class="tag" style="background: var(--border);">C#</span>
+                  </div>
+                  <a href="https://github.com/RobsonMT2018/orbital-defender" target="_blank" rel="noopener noreferrer" style="padding: 6px; border-radius: 6px; background: var(--border); color: var(--text); font-size: 0.75rem; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                    <i class="bx bxl-github"></i> Código
+                  </a>
+                </div>
               </div>
             </div>
+
+            <div style="text-align: center; margin-top: 10px;">
+              <a href="https://github.com/RobsonMT2018?tab=repositories" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 700; color: var(--accent-green); text-decoration: none;">
+                <span>Ver todos os repositórios no GitHub</span>
+                <i class="bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>
         </section>
 
         <!-- SKILLS -->
@@ -377,7 +399,7 @@
             </div>
 
             <div class="grid-cards">
-              <a href="mailto:seu-email@exemplo.com" class="card-item" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+              <a href="mailto:robsontomaciel@gmail.com" class="card-item" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
                 <i class="bx bx-mail-send" style="font-size: 1.5rem; color: var(--accent-pink);"></i>
                 <div style="display: flex; flex-direction: column;">
                   <span style="font-size: 0.72rem; color: var(--muted); font-weight: 600;">E-mail</span>
@@ -385,7 +407,7 @@
                 </div>
               </a>
 
-              <a href="https://linkedin.com/in/seu-perfil" target="_blank" rel="noopener noreferrer" class="card-item" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+              <a href="https://linkedin.com/in/robson-maciel-9213b719b/" target="_blank" rel="noopener noreferrer" class="card-item" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
                 <i class="bx bxl-linkedin-square" style="font-size: 1.5rem; color: var(--accent);"></i>
                 <div style="display: flex; flex-direction: column;">
                   <span style="font-size: 0.72rem; color: var(--muted); font-weight: 600;">LinkedIn</span>
@@ -393,7 +415,7 @@
                 </div>
               </a>
 
-              <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer" class="card-item" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+              <a href="https://github.com/RobsonMT2018" target="_blank" rel="noopener noreferrer" class="card-item" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
                 <i class="bx bxl-github" style="font-size: 1.5rem; color: var(--text);"></i>
                 <div style="display: flex; flex-direction: column;">
                   <span style="font-size: 0.72rem; color: var(--muted); font-weight: 600;">GitHub</span>
@@ -401,7 +423,7 @@
                 </div>
               </a>
 
-              <a href="https://wa.me/5515999999999" target="_blank" rel="noopener noreferrer" class="card-item" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+              <a href="https://wa.me/5515998883175" target="_blank" rel="noopener noreferrer" class="card-item" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
                 <i class="bx bxl-whatsapp" style="font-size: 1.5rem; color: var(--accent-green);"></i>
                 <div style="display: flex; flex-direction: column;">
                   <span style="font-size: 0.72rem; color: var(--muted); font-weight: 600;">WhatsApp</span>
@@ -420,102 +442,20 @@
       </div>
     </main>
 
-    <!-- SCRIPTS -->
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const slider = document.querySelector(".dashboard-grid");
-        const sidebar = document.getElementById("sidebar");
-        const sidebarOverlay = document.getElementById("sidebar-overlay");
-        const menuToggle = document.getElementById("menu-toggle");
-        const sidebarClose = document.getElementById("sidebar-close");
-        const navLinks = document.querySelectorAll(".nav-desktop a, .nav-mobile a");
-        const themeToggle = document.getElementById("theme-toggle");
+    <!-- MODAL DE CERTIFICADOS / DETALHES DAS SKILLS -->
+    <div id="tech-modal" class="modal-overlay">
+      <div class="modal-content glass-card">
+        <button id="modal-close" class="modal-close-btn" aria-label="Fechar modal">&times;</button>
+        <div class="modal-body">
+          <img id="modal-img" src="" alt="Certificado ou imagem demonstrativa">
+          <h3 id="modal-title"></h3>
+          <span id="modal-subtitle" class="tag" style="background: rgba(56, 189, 248, 0.1); color: var(--accent); margin: 8px 0;"></span>
+          <p id="modal-desc"></p>
+        </div>
+      </div>
+    </div>
 
-        let currentIndex = 0;
-        const sections = ["#home", "#about", "#portfolio", "#skills", "#contact"];
-        let isScrolling = false;
-
-        const isMobile = () => window.innerWidth <= 868;
-
-        const goToSection = (index) => {
-          if (index < 0 || index >= sections.length) return;
-          currentIndex = index;
-
-          if (!isMobile()) {
-            slider.style.transform = `translateX(-${currentIndex * 20}%)`;
-          } else {
-            const targetEl = document.querySelector(sections[currentIndex]);
-            if (targetEl) targetEl.scrollIntoView({ behavior: "smooth" });
-          }
-
-          navLinks.forEach((link) => {
-            link.classList.remove("active");
-            if (link.getAttribute("href") === sections[currentIndex]) {
-              link.classList.add("active");
-            }
-          });
-        };
-
-        navLinks.forEach((link) => {
-          link.addEventListener("click", (e) => {
-            const href = link.getAttribute("href");
-            const targetIndex = sections.indexOf(href);
-
-            if (targetIndex !== -1) {
-              if (!isMobile()) e.preventDefault();
-              goToSection(targetIndex);
-              toggleSidebar(false);
-            }
-          });
-        });
-
-        // Scroll por roda do mouse (Desktop)
-        window.addEventListener(
-          "wheel",
-          (e) => {
-            if (isMobile() || isScrolling) return;
-
-            if (e.deltaY > 30 && currentIndex < sections.length - 1) {
-              isScrolling = true;
-              goToSection(currentIndex + 1);
-              setTimeout(() => { isScrolling = false; }, 600);
-            } else if (e.deltaY < -30 && currentIndex > 0) {
-              isScrolling = true;
-              goToSection(currentIndex - 1);
-              setTimeout(() => { isScrolling = false; }, 600);
-            }
-          },
-          { passive: true }
-        );
-
-        // Sidebar Controls
-        const toggleSidebar = (state) => {
-          if (sidebar) sidebar.classList.toggle("open", state);
-          if (sidebarOverlay) sidebarOverlay.classList.toggle("show", state);
-        };
-
-        if (menuToggle) menuToggle.addEventListener("click", () => toggleSidebar(true));
-        if (sidebarClose) sidebarClose.addEventListener("click", () => toggleSidebar(false));
-        if (sidebarOverlay) sidebarOverlay.addEventListener("click", () => toggleSidebar(false));
-
-        // Tema Claro/Escuro
-        if (themeToggle) {
-          if (localStorage.getItem("theme") === "light") {
-            document.body.classList.add("light");
-            themeToggle.checked = true;
-          }
-
-          themeToggle.addEventListener("change", () => {
-            if (themeToggle.checked) {
-              document.body.classList.add("light");
-              localStorage.setItem("theme", "light");
-            } else {
-              document.body.classList.remove("light");
-              localStorage.setItem("theme", "dark");
-            }
-          });
-        }
-      });
-    </script>
+    <!-- Script Principal -->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
