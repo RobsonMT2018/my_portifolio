@@ -256,10 +256,10 @@ body.light .switch-slider::before {
 }
 
 section {
-  margin-top: 40px;
+  margin-top: 10px;
   width: 50%;
   height: 100vh;
-  padding: 85px 5% 30px;
+  padding: 90px 5% 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -273,7 +273,7 @@ section {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--border);
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
   width: 100%;
   max-width: 900px;
   max-height: calc(100vh - 120px);
