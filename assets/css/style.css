@@ -256,6 +256,7 @@ body.light .switch-slider::before {
 }
 
 section {
+  margin-top: -30px;
   width: 50%;
   height: 100vh;
   padding: 85px 5% 30px;
