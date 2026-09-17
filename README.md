@@ -68,15 +68,18 @@ Desenvolvedor focado em **Full-stack** e **Segurança Web**, com forte bagagem e
 
 ___
 
+
 ## 🚀 Como Executar o Projeto Localmente
 
 1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/RobsonMT2018/my_portifolio.git
 
-```git clone [https://github.com/robson-maciel/portfolio.git](https://github.com/robson-maciel/portfolio.git)```
 
 2. **Acesse a pasta do projeto:**
+   ```bash
+   cd my_portifolio
 
-```cd portfolio```
 
 3. **Abra o projeto:**
 
