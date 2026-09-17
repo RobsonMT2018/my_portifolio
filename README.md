@@ -90,7 +90,7 @@ ___
 
 </div>
 
- <div align="center" font-size="10px">
+ <div align="center">
 <br><p>Full-Stack Developer | Sorocaba - SP, Brasil</p>
 </div>
 
