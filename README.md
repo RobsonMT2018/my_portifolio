@@ -91,7 +91,6 @@ ___
 </div>
 
  <div align="center">
-
-<p color="red">Full-Stack Developer | Sorocaba - SP, Brasil</p>
+<br><p font-color="red">Full-Stack Developer | Sorocaba - SP, Brasil</p>
 </div>
 
