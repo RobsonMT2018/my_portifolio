@@ -37,24 +37,16 @@ ___
 ├── index.html
 └── README.md
 ```
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-  - **HTML5 & CSS3 (Variáveis CSS, Flexbox, Grid Layout, Media Queries)**
-  - **JavaScript (Vanilla) para manipulação de DOM e lógica de navegação/tema**
-  - **Boxicons (Biblioteca de ícones vetoriais)**
-  - **Google Fonts (Plus Jakarta Sans)**
-
 ---
 ## 🛠️ Tecnologias Utilizadas
 
+<div align="center">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/Boxicons-000000?style=for-the-badge&logoColor=white" alt="Boxicons" />
 <img src="https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Fonts" />
+</div>
 
 ---
 
