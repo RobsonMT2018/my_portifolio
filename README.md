@@ -90,6 +90,6 @@ ___
 
 </div>
 
-## *Full-Stack Developer | Sorocaba - SP, Brasil*
+## **Full-Stack Developer | Sorocaba - SP, Brasil**
 
 
