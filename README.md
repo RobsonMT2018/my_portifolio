@@ -52,20 +52,6 @@ ___
 
 ## 👨‍💻 Sobre o Autor
 
-- 🎓 **Formação:**
-   - Análise e Desenvolvimento de Sistemas — Cruzeiro do Sul
-   - Jogos Digitais — Uniso
-   - Redes de Computadores — Senac
-
-- 📜 **Certificações:** 
-   - CCNAv7, Cybersecurity Essentials e CyberOps Associate (Cisco).
-
-- 💡 **Áreas de Atuação:**
-   - Desenvolvimento Full-stack (React, React Native, Node.js, Express, PostgreSQL/MySQL), Análise de Segurança Web/DOM e Infraestrutura de Redes.
-
----
-## 👨‍💻 Sobre o Autor
-
 Desenvolvedor focado em **Full-stack** e **Segurança Web**, com forte bagagem em infraestrutura de redes.
 
 * 🎓 **Formação:**
