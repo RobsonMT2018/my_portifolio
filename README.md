@@ -82,11 +82,11 @@ ___
 
 ---
 
-## 📬 Contato
+## 📫 Contato
 
-- **LinkedIn:** [https://linkedin.com/in/robson-maciel-tomosique](https://www.linkedin.com/in/robson-maciel-9213b719b/)
-- **Credly:** [credly.com/users/robson-maciel-tomosique](https://www.credly.com/users/robson-maciel-tomosique/edit/badges/credly)
-- **GitHub:** [github.com/robson-maciel](https://github.com/RobsonMT2018)
+<a href="https://linkedin.com/in/robson-maciel-tomosique" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn" /></a>
+<a href="https://credly.com/users/robson-maciel-tomosique" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/credly/credly-original.svg" width="40" height="40" alt="Credly" /></a>
+<a href="https://github.com/robson-maciel" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub" /></a>
 
 ## *Full-Stack Developer | Sorocaba - SP, Brasil*
 
