@@ -84,7 +84,7 @@ ___
 
 ## 📬 Contato
 
-- **LinkedIn:** [linkedin.com/in/robson-maciel-tomosique]([https://linkedin.com/in/robson-maciel-tomosique](https://www.linkedin.com/in/robson-maciel-9213b719b/)
+- **LinkedIn:** [https://linkedin.com/in/robson-maciel-tomosique](https://www.linkedin.com/in/robson-maciel-9213b719b/)
 - **Credly:** [credly.com/users/robson-maciel-tomosique](https://www.credly.com/users/robson-maciel-tomosique/edit/badges/credly)
 - **GitHub:** [github.com/robson-maciel](https://github.com/RobsonMT2018)
 
