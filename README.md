@@ -90,7 +90,7 @@ ___
 
 </div>
 
- <div align="center">
-<br><p font-color="red">Full-Stack Developer | Sorocaba - SP, Brasil</p>
+ <div align="center" color:"red">
+<br><p>Full-Stack Developer | Sorocaba - SP, Brasil</p>
 </div>
 
