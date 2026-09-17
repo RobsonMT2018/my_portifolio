@@ -64,7 +64,23 @@ ___
    - Desenvolvimento Full-stack (React, React Native, Node.js, Express, PostgreSQL/MySQL), Análise de Segurança Web/DOM e Infraestrutura de Redes.
 
 ---
+## 👨‍💻 Sobre o Autor
 
+Desenvolvedor focado em **Full-stack** e **Segurança Web**, com forte bagagem em infraestrutura de redes.
+
+* 🎓 **Formação:**
+  * **Análise e Desenvolvimento de Sistemas** — Cruzeiro do Sul
+  * **Jogos Digitais** — Uniso
+  * **Redes de Computadores** — Senac
+
+* 📜 **Certificações Cisco:**
+  * `CCNAv7` • `Cybersecurity Essentials` • `CyberOps Associate`
+
+* 💡 **Especialidades:**
+  * Desenvolvimento Web e Mobile com React, React Native e Node.js.
+  * Análise de segurança DOM/Web e gerenciamento de bancos relacionais (PostgreSQL/MySQL).
+
+___
 
 ## 🚀 Como Executar o Projeto Localmente
 
