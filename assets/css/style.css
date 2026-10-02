@@ -461,6 +461,71 @@ section {
     display: block;
   }
 
+  .sidebar {
+    top: 6px;
+    left: 6px;
+    width: min(380px, calc(100vw - 12px));
+    height: calc(100vh - 12px);
+    height: calc(100dvh - 12px);
+    display: flex;
+    flex-direction: column;
+    padding: 16px 18px;
+    overflow-y: auto;
+    border: 1px solid rgba(56, 189, 248, 0.14);
+    border-radius: 16px;
+    background: linear-gradient(160deg, #070b15 0%, #03060c 100%);
+    transform: translateX(calc(-100% - 12px));
+  }
+
+  body.light .sidebar {
+    background: var(--sidebar-bg);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
+  }
+
+  .sidebar-menu-icon {
+    color: var(--text);
+    font-size: 1.6rem;
+  }
+
+  .sidebar-header .control-btn {
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    color: var(--muted);
+    font-size: 1.7rem;
+  }
+
+  .sidebar-profile {
+    padding: 18px 0 16px;
+  }
+
+  .sidebar-profile h2 {
+    color: #22d3c5;
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+
+  .sidebar-profile h2 span {
+    color: #60a5fa;
+  }
+
+  .sidebar-profile p {
+    margin-top: 2px;
+    color: var(--muted);
+    font-size: 0.84rem;
+  }
+
   section {
     padding: 85px 16px 20px;
   }
@@ -468,5 +533,66 @@ section {
   .glass-card {
     max-height: calc(100vh - 100px);
     padding: 30px;
+  }
+
+  .nav-mobile {
+    gap: 4px;
+    margin: 0;
+  }
+
+  .nav-mobile a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-height: 44px;
+    padding: 0 5px;
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 0.88rem;
+    font-weight: 500;
+  }
+
+  .nav-mobile a i {
+    width: 22px;
+    color: var(--muted);
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .nav-mobile a.active {
+    color: #22d3c5;
+    background: linear-gradient(90deg, rgba(34, 211, 197, 0.09), transparent);
+  }
+
+  .nav-mobile a.active i {
+    color: #22d3c5;
+  }
+
+  .sidebar-socials {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: auto;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+  }
+
+  .sidebar-socials a {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(56, 189, 248, 0.16);
+    border-radius: 50%;
+    color: var(--muted);
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  }
+
+  .sidebar-socials a:hover {
+    border-color: var(--accent);
+    background: rgba(56, 189, 248, 0.08);
+    color: var(--accent);
   }
 }
